@@ -36,8 +36,6 @@ All toggles in `.env`:
 
 ## Notes
 
-- Respect target sites' Terms of Service, robots, and rate limits.
 - Instagram layout, anti-bot, or geo can affect extraction; this script uses best-effort meta/body parsing without login.
-- To extend storage (e.g., Postgres/NDJSON), add a new writer in `storage.py`.
 - To add more sources, add a new `X_scraper.py` and plug it into `run.py`.
 
